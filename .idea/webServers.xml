@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b6309c1a-95e6-4024-bc0e-8ebde2e31aa8" name="stas.net">
+        <fileTransfer accessType="SFTP" host="34.78.188.5" port="22" sshConfigId="f2cfb853-5771-4574-a687-ae90159f44fa" sshConfig="root@34.78.188.5:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

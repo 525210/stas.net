@@ -1,0 +1,19 @@
+<?php
+
+require '../function/Db.php';
+require '../function/printHtmlModules.php';
+
+$db = new Db();
+$html = new printHtmlModules();
+
+$html->printHead();
+?>
+
+<div class="container mt-5">
+    <?php $db->printTest();?>
+</div>
+
+
+<?php
+$html->printFooter();
+?>
